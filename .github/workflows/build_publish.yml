@@ -3,8 +3,8 @@ name: Build and publish
 on:
   push:
     branches:
-      - *
-      - !master
+      - "*"
+      - "!master"
 
 env:
   REGISTRY: ghcr.io
