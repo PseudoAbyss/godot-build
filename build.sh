@@ -1,2 +1,2 @@
-docker build -t godot-windows -f Dockerfile.windows .
-docker build -t godot-linux -f Dockerfile.linux .
+docker build -t godot-windows ./windows
+docker build -t godot-linux ./linux
